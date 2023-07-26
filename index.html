@@ -22,10 +22,25 @@
 
         <!-- START: Formulário de cadastro -->
         <div class="card p-2">
-            <div class="row g3">
+            <div class="row g-3">
                 <div class="col-md-6">
                   <label for="" class="form-label">Nome completo</label>
                   <input type="text" class="form-control" id="name">  
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="cpf">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Instrumento</label>
+                    <input type="text" class="form-control" id="instrumento">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" id="telefone">
+                </div>
+                <div>
+                    <input type="submit" class="btn btn-primary" value="cadastrar" id="btn" onclick="createUser()">
                 </div>
             </div>
         </div>
